@@ -1,4 +1,4 @@
-import Auth from "../pages/Auth";
+import Auth from "../pages/Auth/index";
 
 export const publicRoutes = [
     {path: '/login', component: Auth, exact: true},

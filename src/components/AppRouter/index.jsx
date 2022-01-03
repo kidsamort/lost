@@ -13,7 +13,7 @@ const AppRouter = () => {
             key={route.path}
           />
         ))}
-        <Redirect  to="/login" />
+        <Redirect to="/" />
       </Switch>
     </div>
   );
